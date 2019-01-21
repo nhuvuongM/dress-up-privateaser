@@ -12,14 +12,13 @@
       <a href="#bars" class="navigation-bar-button" >Bars</a>
       <a href="#about" class="navigation-bar-button">About</a>
       <a href="#contact us" class="navigation-bar-button">Contact</a>
-      <a href="logo"><img src="logo.png"/></a>
     </div>
 
 
 <!-- Title -->
 
       <h1 id="titrePage" style="color:white">Welcome to Privateaser</h1>
-      <h2 id="sousTitre" style="color:white">The easy and fast way of reservation</h2>
+      <h2 id="sousTitre" style="color:white">The easiest and fastest way of reservation</h2>
 
 <!--Body -->
     <div id="bar">
@@ -49,6 +48,27 @@
 
     <script src="privateaser.js"></script>
     <script src="index.js"></script>
+
+
+
+    <!-- Pop up form login -->
+    <button class="open-button" onclick="openForm()">Login</button>
+
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Login</h1>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit" class="btn">Login</button>
+          <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+          <button type="submit" class="btn checkin" onclick="closeForm()">Check-In</button>
+        </form>
+      </div>
+
 
   </body>
 </html>
