@@ -1,0 +1,123 @@
+html {
+  background: URL(image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1#titrePage {
+  font-family: "ubuntu";
+  font-size: 450%;
+
+  text-align: center;
+
+
+  border-top: 4px;
+  border-bottom: 4px ;
+  border-bottom-left-radius: 1%;
+  border-bottom-right-radius:1%;
+  border-top-left-radius:1%;
+  border-top-right-radius:1%;
+
+
+  padding:1%;
+
+  margin-top: 3%;
+
+  background:#92B3CA;
+  opacity: 0.90;
+
+}
+
+h2#sousTitre {
+  font-family: "ubuntu";
+  font-size: x-large;
+  text-align: center;
+  margin-top:-2%;
+
+}
+
+.navigation-bar {
+  font-family: "ubuntu";
+  text-align:center;
+  font-size: 18px;
+  word-spacing: 23px;
+
+  color:white;
+
+  border-top: 4px;
+  border-bottom: 4px ;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius:3%;
+  border-top-left-radius:3%;
+  border-top-right-radius:3%;
+
+  width: 18%;
+  margin-left: 81%;
+  background:#333435;
+  opacity: 0.9;
+
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  vertical-align:middle;
+}
+
+#bar {
+  text-align: center;
+  margin-top:3%;
+
+  border-top: 4px solid white;
+  border-right:  4px solid white;
+  border-left:  4px solid white;
+
+  padding: 0.5%;
+
+  width: 35.6%;
+  margin-left:30%;
+  background:#333435;
+  opacity: 0.9;
+}
+
+select {
+  padding:1%;
+  background-color: #F7F3EC;
+}
+input:focus{
+  padding:1%;
+  background-color: #F7F3EC;
+}
+input:focus {
+    border: 2px solid #555;
+}
+
+#booker {
+  text-align: center;
+
+  border-bottom: 4px solid white;
+  border-right:  4px solid white;
+  border-left:  4px solid white;
+
+  padding: 0.8%;
+
+  width: 35%;
+  margin-left:30%;
+  background:#345063;
+  opacity: 0.9;
+}
+
+#deductibleOption {
+  margin-top: 1.8%;
+  font-family: "ubuntu";
+  font-size: medium;
+  color: white;
+}
+
+button#compute {
+  margin-top: 1%;
+  margin-left: 46.5%;
+  border-radius: 4px;
+  width: 6%;
+}
