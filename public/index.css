@@ -74,13 +74,13 @@ a.logo {
   border-right:2px solid;
   border-left:2px solid;
 
-  border-color:white;
+  border-color:#F5F9FB;
 
   padding: 0.5%;
 
   width: 35.6%;
   margin-left:30%;
-  background:#333435;
+  background:#F5F9FB;
   opacity: 0.9;
 }
 
@@ -107,7 +107,7 @@ input:focus{
 
   width: 35%;
   margin-left:30%;
-  background:#345063;
+  background:#92B3CA;
   opacity: 0.9;
 }
 

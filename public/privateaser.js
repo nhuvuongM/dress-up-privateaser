@@ -124,10 +124,16 @@ const PRIVATEASER = (() => {
 })();
 
 
+
 function openForm() {
   document.getElementById("myForm").style.display = "block";
 }
 
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
+}
+
+/* Automatically fill fields "price by hour" and "price by person" */
+function autoFillField() {
+
 }
