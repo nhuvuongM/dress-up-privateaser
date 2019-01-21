@@ -21,10 +21,10 @@ h1#titrePage {
 
   padding:1%;
 
-  margin-top: 3%;
+  margin-top: 3.2%;
 
   background:#92B3CA;
-  opacity: 0.90;
+  opacity: 0.91;
 
 }
 
@@ -39,20 +39,17 @@ h2#sousTitre {
 .navigation-bar {
   font-family: "ubuntu";
   text-align:center;
-  font-size: 18px;
-  word-spacing: 23px;
+  font-size: 15px;
+  word-spacing: 30px;
+
+  border-radius: 8px;
 
   color:white;
 
-  border-top: 4px;
-  border-bottom: 4px ;
-  border-bottom-left-radius: 3%;
-  border-bottom-right-radius:3%;
-  border-top-left-radius:3%;
-  border-top-right-radius:3%;
+  padding : 0.8%;
 
-  width: 18%;
-  margin-left: 81%;
+  width: 15%;
+  margin-left: 77%;
   background:#333435;
   opacity: 0.9;
 
@@ -73,9 +70,11 @@ a.logo {
   text-align: center;
   margin-top:3%;
 
-  border-top: 4px solid white;
-  border-right:  4px solid white;
-  border-left:  4px solid white;
+  border-top: 2px solid;
+  border-right:2px solid;
+  border-left:2px solid;
+
+  border-color:white;
 
   padding: 0.5%;
 
@@ -98,9 +97,11 @@ input:focus{
 #booker {
   text-align: center;
 
-  border-bottom: 4px solid white;
-  border-right:  4px solid white;
-  border-left:  4px solid white;
+  border-bottom:2px solid;
+  border-right:2px solid;
+  border-left:2px solid;
+
+  border-color: white;
 
   padding: 0.8%;
 
@@ -125,8 +126,6 @@ button#compute {
 }
 
 
-
-
 /* Pop form Login */
 
 {box-sizing: border-box;}
@@ -134,16 +133,17 @@ button#compute {
 .open-button {
   font-family: "ubuntu";
   font-size: meidum;
-  background-color: #333435;
+  background-color:#333435;
   color: white;
   padding: 16px 20px;
   border: none;
+  border-radius: 8px;
   cursor: pointer;
   opacity: 0.9;
   position: fixed;
-  bottom: 23px;
-  right: 28px;
-  width: 280px;
+  bottom: 94.2%;
+  right: 10px;
+  width: 100px;
 }
 
 /* The popup form - hidden by default */
